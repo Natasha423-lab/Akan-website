@@ -34,7 +34,7 @@ The following technologies were used to create this project
 For any inquiries about this website  feel free to send an email to me at natasha.ongera@moringaschool.com
 #License and Copyright Information
 This project is licensed under the MIT License.
-
+@2025 Natasha Ongera All Rights Reserved
 
 
 
