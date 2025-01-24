@@ -33,8 +33,7 @@ The following technologies were used to create this project
 ##Frontend
 1.HTML
 2.CSS
-##Backend
-1.Javascript
+3.Javascript
 #Contact Information
 For any inquiries about this website  feel free to send an email to me at natasha.ongera@moringaschool.com
 #License and Copyright Information
