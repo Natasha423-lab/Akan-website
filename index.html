@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <div class="formCont">
-    <form>
-
-        <h1> Form input</h1>
+      <form>
+        <h1>Form input</h1>
         <div class="name">
-         <label class="one" for="name">Name:</label><br>
-         <input class="textHolder" type="text" id="Name" name="Name"><br>  
+          <label class="one" for="name">Name:</label><br />
+          <input class="textHolder" type="text" id="Name" name="Name" /><br />
         </div>
         <div class="Day">
-        <label class="one" for="Day">Day:</label><br>
-        <input class="textHolder" type="text" id="Day" Day="Day" min="1" max="31" required><br>
+          <label class="one" for="Day">Day:</label><br />
+          <input
+            class="textHolder"
+            type="text"
+            id="day"
+            Day="Day"
+            min="1"
+            max="31"
+            required
+          /><br />
         </div>
         <div class="Month">
-        <label class="one" for="Month">Month:</label><br>
-        <input class="textHolder" type="text" id="Month" Year="Month" min="1" max="12" required><br>
+          <label class="one" for="Month">Month:</label><br />
+          <input
+            class="textHolder"
+            type="text"
+            id="month"
+            Year="Month"
+            min="1"
+            max="12"
+            required
+          /><br />
         </div>
         <div class="year">
-        <label class="one" for="Year">Year:</label><br>
-        <input class="textHolder" type="text" id="Year" Year="Year" min="1950" max="2030"><br>
+          <label class="one" for="Year">Year:</label><br />
+          <input
+            class="textHolder"
+            type="text"
+            id="year"
+            Year="Year"
+            min="1950"
+            max="2030"
+          /><br />
         </div>
         <div class="Gender">
-        <label class="one" for="Gender">Gender</label><br>
-        <input type="text" id="Gender" Gender="Gender"><br>
+          <label class="one" for="Gender">Gender:</label><br />
+          <input type="text" id="Gender" Gender="Gender" /><br />
         </div>
-        <label class="one"  for="Male">Male:</label><br>
-        <input type="radio" id="Male" name="Male" value="Male"><br>
+        <label class="one" for="Male">Male:</label><br />
+        <input type="radio" id="Male" name="Male" value="Male" /><br />
 
-        <label class="one" for="Female">Female:</label><br>
-        <input type="radio" id="Male" name="Male" value="Male"><br>
-        
-        <input class="two" type="submit"  value="Generate Akan Name">
-   
+        <label class="one" for="Female">Female:</label><br />
+        <input type="radio" id="Male" name="Male" value="Male" /><br />
 
-    </form>
-</div>
+        <input class="two" type="submit" value="Generate Akan Name" />
+      </form>
+    </div>
 
-        <script src="./scripts.js"></script>
-</body>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
