@@ -4,6 +4,11 @@ Akan Name Generator
 This web appliation is used to input a person's birthday and calculate the day of the week they were born and depending on their gender, outputs their Akan name.
 #Author information
 Natasha Ongera 
+#Set-up Instructions
+1.Clone this repository
+2.Open index.html in your web browser
+3.Enter your birth date and select your gender
+.4Click submit to see your Akan name
 #Behaviour-Driven Developments
 This is an Agile software development methodology in which this website is documented and designed around the behavior a user expects to experience when interacting with it. The following are some of the scenarios that one may expect to encounter when using the website depending on the input:
 ##Scenario 1: Successful Login
@@ -20,7 +25,7 @@ And the user remains on the login page.
 ##Scenario 3: Login with Incorrect birthday date
 Given the user is on the login page,
 And the user has an incorrect birthday date,
-And clicks the "Login" button,
+And clicks the "Submit" button,
 Then an error message is displayed saying, "Invalid birthday date"
 And the user remains on the login page.
 #Technologies used
