@@ -11,6 +11,12 @@ Natasha Ongera
 .4Click submit to see your Akan name
 #Behaviour-Driven Developments
 This is an Agile software development methodology in which this website is documented and designed around the behavior a user expects to experience when interacting with it. The following are some of the scenarios that one may expect to encounter when using the website depending on the input:
+Input: Birth date and gender
+Output: Akan name based on day of birth and gender
+Input: Invalid date (day ≤ 0 or day > 31)
+Output: Error message requesting valid date
+Input: Invalid month (month ≤ 0 or month > 12)
+Output: Error message requesting valid month
 #Technologies used
 The following technologies were used to create this project
 ##Frontend
