@@ -10,7 +10,7 @@ Natasha Ongera
 3.Enter your birth date and select your gender
 .4Click submit to see your Akan name
 # Behaviour-Driven Developments
-This is an Agile software development methodology in which this website is documented and designed around the behavior a user expects to experience when interacting with it. The following are some of the scenarios that one may expect to encounter when using the website depending on the input:
+This is a software development methodology in which this website is documented and designed around the behavior a user expects to experience when interacting with it. The following are some of the scenarios that one may expect to encounter when using the website depending on the input:
 Input: Birth date and gender
 Output: Akan name based on day of birth and gender
 Input: Invalid date (day ≤ 0 or day > 31)
