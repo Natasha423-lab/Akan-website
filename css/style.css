@@ -1,6 +1,6 @@
 
     body {
-      background-color: antiquewhite;
+      background-color: white;
       font-family: Arial, sans-serif;
       color: white;
       ;
@@ -17,7 +17,7 @@
 form{
     width: 65%;
     border: 7px solid black;
-    margin: 20px;background-color: yellowgreen;
+    margin: 20px;background-color: burlywood;
 
 }
 
