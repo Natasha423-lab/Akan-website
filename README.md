@@ -19,7 +19,6 @@ Input: Invalid month (month ≤ 0 or month > 12)
 Output: Error message requesting valid month
 # Technologies used
 The following technologies were used to create this project
-## Frontend
 1.HTML
 2.CSS
 3.Javascript
