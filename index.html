@@ -3,69 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Akan Name Generator</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Community</li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Akan Name Generator</h1>
+    <div class="three">
+      This web application is used to input a person's birthday and calculate
+      the day of the week they were born and, depending on their gender, output
+      their Akan name. The Akan names are derived from Ghanaian culture, where
+      children are usually given first names corresponding to the day of the
+      week they were born.
+    </div>
     <div class="formCont">
       <form>
-        <h1>Form input</h1>
+        <h1>Form Input</h1>
         <div class="name">
           <label class="one" for="name">Name:</label><br />
-          <input class="textHolder" type="text" id="Name" name="Name" /><br />
-        </div>
-        <div class="Day">
-          <label class="one" for="Day">Day:</label><br />
           <input
             class="textHolder"
             type="text"
+            id="name"
+            name="name"
+            required
+          /><br />
+        </div>
+        <div class="day">
+          <label class="one" for="day">Day:</label><br />
+          <input
+            class="textHolder"
+            type="number"
             id="day"
-            Day="Day"
+            name="day"
             min="1"
             max="31"
             required
           /><br />
         </div>
-        <div class="Month">
-          <label class="one" for="Month">Month:</label><br />
+        <div class="month">
+          <label class="one" for="month">Month:</label><br />
           <input
             class="textHolder"
-            type="text"
+            type="number"
             id="month"
-            Year="Month"
+            name="month"
             min="1"
             max="12"
             required
           /><br />
         </div>
         <div class="year">
-          <label class="one" for="Year">Year:</label><br />
+          <label class="one" for="year">Year:</label><br />
           <input
             class="textHolder"
-            type="text"
+            type="number"
             id="year"
-            Year="Year"
+            name="year"
             min="1950"
             max="2030"
+            required
           /><br />
         </div>
-        <div class="Gender">
-          <label class="one" for="Gender">Gender:</label><br />
-          <input type="text" id="Gender" Gender="Gender" /><br />
+        <div class="gender">
+          <label class="one" for="gender">Gender:</label><br />
+          <input type="radio" id="male" name="gender" value="Male" required />
+          <label class="one" for="male">Male</label><br />
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female"
+            required
+          />
+          <label class="one" for="female">Female</label><br />
         </div>
-        <label class="one" for="Male">Male:</label><br />
-        <input type="radio" id="Male" name="Male" value="Male" /><br />
-
-        <label class="one" for="Female">Female:</label><br />
-        <input type="radio" id="Male" name="Male" value="Male" /><br />
-
         <input class="two" type="submit" value="Generate Akan Name" />
       </form>
     </div>
-
     <script src="./scripts.js"></script>
-    <div class="result">
-      
-    </div>
+    <div class="result"></div>
   </body>
 </html>
